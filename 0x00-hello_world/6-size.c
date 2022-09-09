@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main: Main entry point
+/**
+ * main - Main entry point
  * Description: Size is not grandeur
  */
 int main(void)
