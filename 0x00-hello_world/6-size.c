@@ -1,10 +1,14 @@
 #include <stdio.h>
 
+/*
+ * Description: Size is not grandeur
+ *
+ */
 int main(void)
 {	
 	char c;
 	int i;
-	long li
+	long li;
 	long long lli;
 	float f;
 
