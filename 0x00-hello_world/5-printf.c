@@ -2,8 +2,8 @@
 
 /**
  * main - Main entry point
- *Description: Print word out
- *
+ * Description: Print word out
+ * Return: 0
  */
 int main(void)
 {

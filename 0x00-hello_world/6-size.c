@@ -3,6 +3,7 @@
 /**
  * main - Main entry point
  * Description: Size is not grandeur
+ * return: 0
  */
 int main(void)
 {
