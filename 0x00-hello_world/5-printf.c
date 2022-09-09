@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*
+ * main: Main entry point
  *Description: Print word out
  *
  */

@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /*
+ * main: Main entry point
  * Description: Size is not grandeur
- *
  */
 int main(void)
-{	
+{
 	char c;
 	int i;
 	long li;
