@@ -8,11 +8,11 @@ int main(void)
 {
 	int numb;
 
-	numb = 0;
+	numb = '0';
 	do {
 		putchar(numb);
 		numb++;
-	} while (numb < 10);
+	} while (numb <= '9');
 putchar('\n');
 return (0);
 }
