@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-
+#include <stdio.h>
 /*
  * main - Main entry point
  * Description: Positive anything is better than negative nothing
