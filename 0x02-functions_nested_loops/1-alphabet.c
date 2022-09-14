@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * main - Main entry point
+ * print_alphabet - Priny in lowercase
  * Description: The last digit
  * Return: 0
  */

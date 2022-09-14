@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * main - Main entry point
+ * print_sign - print sign
  * Description: put sign of number
  * Return: 0
  */
