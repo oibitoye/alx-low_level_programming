@@ -15,7 +15,7 @@ int print_sign(int numb)
 	{
 	_putchar('-');
 	return (-1);
-	}	
+	}
 	else
 	{
 	_putchar('0');

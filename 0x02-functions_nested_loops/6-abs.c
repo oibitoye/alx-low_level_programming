@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * main - Main entry point
  * _abs - put sign
- * Description: put sign of number
+ * @numb: integer parameter for function
  * Return: 0
  */
 int _abs(int numb)
 {
 	if (numb >= 0)
 	{
-		 return (numb);
+		return (numb);
 	}
 	else
 		return (numb * -1);
