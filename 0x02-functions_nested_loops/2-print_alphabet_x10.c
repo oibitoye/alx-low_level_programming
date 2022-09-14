@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Main entry point
  * print_alphabet_x10 - print 10 alph
+ * 
  * Description: The last digit
  * Return: 0
  */

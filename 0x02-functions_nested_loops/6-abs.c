@@ -7,10 +7,10 @@
  */
  int _abs(int numb)
  {
- 	if (numb >= 0)
- 	{
- 	return (numb);
- 	}
- 	else
- 	return (numb * -1);
+	 if (numb >= 0)
+	 {
+		 return (numb);
+	 }
+	 else
+		 return (numb * -1);
  }
