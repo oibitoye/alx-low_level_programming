@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Main entry point
- * int _islower - check if lowercase
- * Description: check for lowercase character
+ * _islower - check if lowercase
+ *
+ * @alph: is an integer parameter fir _islower function
  * Return: 0
  */
 int _islower(int alph)
