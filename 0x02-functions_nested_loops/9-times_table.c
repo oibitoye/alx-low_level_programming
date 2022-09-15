@@ -10,10 +10,10 @@ void times_table(void)
 	int num2 = 1;
 	int product;
 
-	while (num1 < 10)
+	for (num1; num1 < 10; num1++)
 	{
 		_putchar('0');
-		while (num2 < 10)
+		for (num2; num2 < 10; num2++)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -28,10 +28,8 @@ void times_table(void)
 				_putchar((product / 10) + '0');
 			}
 			_putchar((product % 10) + '0');
-			num2++;
 		}
 		_putchar('\n');
-		num1++;
 	}
 }
 
