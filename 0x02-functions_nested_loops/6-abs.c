@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _abs - put sign
+ * _abs - function computes the absolute value of an integer
  * @numb: integer parameter for function
- * Return: 0
+ * Return: absolute value
  */
 int _abs(int numb)
 {
@@ -13,3 +13,4 @@ int _abs(int numb)
 	else
 		return (numb * -1);
 }
+

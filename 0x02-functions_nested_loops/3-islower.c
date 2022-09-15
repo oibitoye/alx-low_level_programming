@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _islower - check if lowercase
+ * _islower - check if lowercase character is present
  *
- * @alph: is an integer parameter fir _islower function
+ * @c: is an integer parameter for _islower function
  * Return: 0
  */
-int _islower(int alph)
+int _islower(int c)
 {
-	if (alph >= 'a' && alph <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}

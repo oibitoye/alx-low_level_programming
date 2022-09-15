@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _isalpha - check for lowercase or Uppercase character
- * @alph: is an integer parameter for the function
- * Return: 0
+ * _isalpha - check for alphabetic character
+ * @c: is an integer parameter for the _isalpha function
+ * Return: 0 or 1
  */
-int _isalpha(int alph)
+int _isalpha(int c)
 {
-	if ((alph >= 'A' && alph <= 'Z') || (alph >= 'a' && alph <= 'z'))
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 	{
 		return (1);
 	}
