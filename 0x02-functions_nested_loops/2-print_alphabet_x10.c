@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - print 10 alph
- *
+ * print_alphabet_x10 - This function prints lowercase alphabets in 10 times
  * Description: The last digit
  * Return: 0
  */
