@@ -12,6 +12,7 @@ int main(void)
 	int p = 0;
 	char x;
 
+	srand(time(0));
 	while (p < 2646)
 	{
 		x = rand() % 128;
