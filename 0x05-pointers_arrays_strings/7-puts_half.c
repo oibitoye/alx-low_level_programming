@@ -33,6 +33,7 @@ void puts_half(char *s)
 		{
 			_putchar(s[i]);
 		}
+	}
 	else
 	{
 		for (i = len / 2 + 1; i < len; i++)
