@@ -33,13 +33,13 @@ void puts_half(char *s)
 		{
 			_putchar(s[i]);
 		}
-		else
+	else
+	{
+		for (i = len / 2 + 1; i < len; i++)
 		{
-			for (i = len / 2 + 1; i < len; i++)
-			{
-				_putchar(s[i]);
-			}
+			_putchar(s[i]);
 		}
-		_putchar('\n');
+	}
+	_putchar('\n');
 }
 
