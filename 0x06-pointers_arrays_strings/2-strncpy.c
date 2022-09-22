@@ -20,7 +20,7 @@ char *_strncpy(char *dest, char *src, int n)
 	for (; i < n; i++)
 	{
 		dest[i] = '\0';
-		printf("THis is I: %d",i);
+		/** printf("THis is I: %d", i); */
 	}
 
 	return (dest);
