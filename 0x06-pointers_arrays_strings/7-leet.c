@@ -9,13 +9,13 @@
 char *leet(char *str)
 {
 	int i = 0;
-	int j = 0;
+	int j;
 	char alph[] = "aAeEoOtTlL";
 	char numb[] = "4433007711";
 
 	while (str[i])
 	{
-		for ( ; j < 10; j++)
+		for (j = 0; j <= 9; j++)
 		{
 			if (alph[j] == str[i])
 			{
