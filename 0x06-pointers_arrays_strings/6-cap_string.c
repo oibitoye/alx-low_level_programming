@@ -22,9 +22,9 @@ char *cap_string(char *str)
 			}
 			else
 			{
-				while (j <=12)
+				while (j <= 12)
 				{
-					if (xter[j] == s[i-1])
+					if (xter[j] == s[i - 1])
 					{
 						s[i] -= 32;
 					}
@@ -34,6 +34,6 @@ char *cap_string(char *str)
 		}
 		i++;
 	}
-	return str;
+	return (str);
 }
 
