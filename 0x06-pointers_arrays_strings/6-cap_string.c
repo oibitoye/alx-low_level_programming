@@ -22,7 +22,7 @@ char *cap_string(char *str)
 			else
 			{
 				int j = 0;
-				
+
 				while (j <= 12)
 				{
 					if (xter[j] == str[i - 1])
