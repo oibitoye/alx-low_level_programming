@@ -20,9 +20,13 @@ char *_strdup(char *str)
 			len = len + i;
 			i++;
 		}
-		new_str = malloc((len) * sizeof(char));
+		new_str = malloc((len + 1) * sizeof(char));
 		for (i = 0; i < len; i++)
 		{
+			if (new_str == NULL)
+			{
+				return (NULL);
+			}
 			new_str[i] = *(str + i);
 		}
 		return (new_str);
