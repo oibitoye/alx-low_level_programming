@@ -12,7 +12,6 @@ char *_strdup(char *str)
 	char *new_str;
 	unsigned int i = 0;
 	unsigned int j = 0;
-	
 	unsigned int len = 0;
 
 	if (str != NULL)
@@ -22,7 +21,7 @@ char *_strdup(char *str)
 			len = len + i;
 			i++;
 		}
-		new_str = malloc((len + 1) * sizeof(char));
+		new_str = malloc((len) * sizeof(char));
 		for (j = 0; j < len; j++)
 		{
 			if (new_str == NULL)
