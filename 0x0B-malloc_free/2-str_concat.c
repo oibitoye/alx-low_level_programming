@@ -27,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 			len2++;
 		}
 	}
-	con_str = (char *)malloc((len1 + len2 + 1) * sizeof(char));
+	con_str = (char *)malloc(((len1 + len2) + 1) * sizeof(char));
 	if (con_str == NULL)
 	{
 		return (NULL);
@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		con_str[i] = s2[j];
 	}
-	con_str[len1 + len2] = '\0';
+	con_str[(len1 + len2)] = '\0';
 	return (con_str);
 }
 
