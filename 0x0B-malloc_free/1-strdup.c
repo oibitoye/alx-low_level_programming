@@ -10,16 +10,14 @@
 char *_strdup(char *str)
 {
 	char *new_str;
-	unsigned int i = 0;
-	unsigned int j = 0;
-	unsigned int len = 0;
+	int j = 0;
+	int len = 0;
 
 	if (str != NULL)
 	{
-		while (*(str + i) != '\0')
+		while (str[len] != '\0')
 		{
-			len = len + i;
-			i++;
+			len++;
 		}
 		/* new_str = malloc((len) * sizeof(char));*/
 		new_str = (char *)malloc((sizeof(char) * len) + 1);
