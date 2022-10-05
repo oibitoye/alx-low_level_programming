@@ -27,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 			len2++;
 		}
 	}
-	len = len1 + len2;
+	len = len1 + len2 + 2;
 	con_str = malloc((len) * sizeof(char));
 	if (con_str == NULL)
 	{
@@ -35,14 +35,14 @@ char *str_concat(char *s1, char *s2)
 	}
 	if (s1 != NULL)
 	{
-		for (i = 0; i < len1; i++)
+		for (i = 0; i <= len1; i++)
 		{
 			con_str[i] = s1[i];
 		}
 	}
 	if (s2 != NULL)
 	{
-		for (j = 0; j < len2; j++, i++)
+		for (j = 0; j <= len2; j++, i++)
 		{
 			con_str[i] = s2[j];
 		}
