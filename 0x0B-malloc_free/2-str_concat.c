@@ -32,13 +32,19 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < len1; i++)
+	if (s1 != NULL)
 	{
-		con_str[i] = s1[i];
+		for (i = 0; i < len1; i++)
+		{
+			con_str[i] = s1[i];
+		}
 	}
-	for (j = 0; j < len2; j++, i++)
+	if (s2 != NULL)
 	{
-		con_str[i] = s2[j];
+		for (j = 0; j < len2; j++, i++)
+		{
+			con_str[i] = s2[j];
+		}
 	}
 	con_str[(len1 + len2)] = '\0';
 	return (con_str);
