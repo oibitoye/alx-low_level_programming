@@ -3,7 +3,7 @@
 
 /**
  * free_dog - Function frees dogs
- * @: Input struct dog
+ * @d: Input struct dog
  * Return: Void
  */
 
