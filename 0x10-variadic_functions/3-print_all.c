@@ -37,6 +37,7 @@ void print_all(const char *const format, ...)
 		}
 		else
 		{
+			i++;
 			continue;
 		}
 		if (*(format + i + 1) != 0)
