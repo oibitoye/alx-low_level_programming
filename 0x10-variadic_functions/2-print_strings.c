@@ -25,7 +25,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (item == NULL)
 			printf("(nil)");
 		else
-			printf("%s", p);
+			printf("%s", item);
 		i++
 	}
 	va_end(items);
