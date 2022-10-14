@@ -21,7 +21,7 @@ void print_all(const char *const format, ...)
 		{
 			p = va_arg(items, char *);
 			p = (p == NULL) ? "(nil)" : p;
-			printf("%s", p)
+			printf("%s", p);
 		}
 		else if (*(format + i) == 'i')
 		{
@@ -39,8 +39,12 @@ void print_all(const char *const format, ...)
 		{
 			continue;
 		}
-		i++
+		if (*(format + i + 1) != 0)
+		{
+			printf("%s", s);
+		}
+		i++;
 	}
-	putchar(10);
+	putchar('\n');
 	va_end(items);
 }
