@@ -17,33 +17,32 @@ void print_all(const char *const format, ...)
 
 	while ((format != NULL) && *(format + i) != '\0')
 	{
-		if (*(format + i) == 's')
+		switch (*(format + i))
 		{
-			p = va_arg(items, char *);
-			p = (p == NULL) ? "(nil)" : p;
-			printf("%s", p);
-		}
-		else if (*(format + i) == 'i')
-		{
-			printf("%i", va_arg(items, int));
-		}
-		else if (*(format + i) == 'c')
-		{
-			printf("%c", va_arg(items, int));
-		}
-		else if (*(format + i) == 'f')
-		{
-			printf("%f", va_arg(items, double));
-		}
-		else
-		{
+			case 's':
+				p = va_arg(items, char *);
+				p = (p == NULL) ? "(nil)" : p;
+				printf("%s", p);
+				break;
+
+			case 'i':
+				printf("%i", va_arg(items, int));
+				break;
+
+			case 'c':
+				printf("%c", va_arg(items, int));
+				break;
+
+			case 'f':
+				printf("%f", va_arg(items, double));
+				break;
+
+			default:
 			i++;
 			continue;
 		}
 		if (*(format + i + 1) != 0)
-		{
 			printf("%s", s);
-		}
 		i++;
 	}
 	putchar('\n');
