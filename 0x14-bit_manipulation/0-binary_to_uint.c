@@ -24,7 +24,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 
 		if (b[len] == 49)
-			i += 1 << bin_num;
+			i += bin_num;
 
 	}
 
