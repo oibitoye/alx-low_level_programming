@@ -23,11 +23,9 @@ int create_file(const char *filename, char *text_content)
 	{
 		text_content = "";
 	}
-	else
-	{
-		for (cont = 0; text_content[cont]; cont++)
-			;
-	}
+
+	for (cont = 0; text_content[cont]; cont++)
+		;
 
 	wr = write(op, text_content, cont);
 
